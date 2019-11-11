@@ -32,6 +32,10 @@ chmod +x backup.sh
 sudo raspi-config
 ```
 
+## 知乎
+
+https://zhuanlan.zhihu.com/p/91137337
+
 ## reference
 
 https://github.com/conanwhf/RaspberryPi-script/blob/master/rpi-backup.sh 

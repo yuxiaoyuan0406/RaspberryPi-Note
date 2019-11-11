@@ -1,0 +1,3 @@
+# Temperature of CPU
+
+bash
