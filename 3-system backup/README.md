@@ -8,6 +8,11 @@
 - kpartx
 - exfat-fuse
 
+## tested system
+
+- Debian 9 (strech)
+- Debian 10 (buster)
+
 ## PS
 
 - MUST RUN AS **ROOT**
@@ -26,11 +31,6 @@ chmod +x backup.sh
 ```bash
 sudo raspi-config
 ```
-
-## tested system
-
-- Debian 9 (strech)
-- Debian 10 (buster)
 
 ## reference
 
