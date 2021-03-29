@@ -1,2 +1,5 @@
 *.o
 1-new pi/cpp_opencv_test/main
+4-pico-vscode-project/rpi_note/build
+4-serial-device-programming
+.gitignore

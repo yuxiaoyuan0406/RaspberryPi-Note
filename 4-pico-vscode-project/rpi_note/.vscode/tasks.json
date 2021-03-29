@@ -1,0 +1,30 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "cmake",
+            "type": "shell",
+            "options": {
+                "cwd": "${workspaceFolder}/build"
+            },
+            "command": "cmake -G \"NMake Makefiles\" ${workspaceRoot}",
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "make",
+            "type": "shell",
+            "command": "cmake --build ${workspaceFolder}/build",
+            "options": {
+                "cwd": "${workspaceFolder}/build"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "dependsOn":["cmake"],
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}
