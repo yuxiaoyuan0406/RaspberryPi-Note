@@ -1,0 +1,9 @@
+[Unit]
+Description=a service to send ip through email
+After=rc-local.service
+[Service]
+Type=idle
+Restart=on-failure
+ExecStart=/home/pi/Program/email/send_ip.py
+[Install]
+WantedBy=multi-user.target
